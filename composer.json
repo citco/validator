@@ -1,0 +1,21 @@
+{
+    "name": "citco/validator",
+    "description": "",
+    "authors": [
+        {
+            "name": "amir",
+            "email": "ammontazer@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.1.*",
+        "illuminate/validation": "4.1.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Citco\\Validator": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
