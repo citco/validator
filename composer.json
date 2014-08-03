@@ -1,6 +1,6 @@
 {
     "name": "citco/validator",
-    "description": "",
+    "description": "Laravel Validator Extension",
     "authors": [
         {
             "name": "amir",

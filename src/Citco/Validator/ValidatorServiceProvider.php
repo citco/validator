@@ -18,11 +18,14 @@ class ValidatorServiceProvider extends ServiceProvider {
 	 * @return void
 	 */
 
-	public function register(){}
+	public function register()
+	{
+		//pass
+	}
+
 	public function boot()
 	{
-		$validator = $this->app->make('validator');
-		$validator->resolver(function($translator, $data, $rules, $messages)
+		$this->app->make('validator')->resolver(function($translator, $data, $rules, $messages)
 		{
 		    return new Validator($translator, $data, $rules, $messages);
 		});
