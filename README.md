@@ -25,7 +25,7 @@ In your `composer.json`:
     }
 }
 ```
-After updating composer, add the ServiceProvider to the providers array in app/config/app.php
+After updating composer, add the ValidatorServiceProvider to the providers array in app/config/app.php
 
     'Citco\Mailer\ValidatorServiceProvider',
 
